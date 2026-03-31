@@ -33,3 +33,8 @@ int fightClub() {
 char const* funcVandergriff() { 
   return "horse";
 }
+
+int funcCogan()
+{
+  return 9 + 10;
+}
