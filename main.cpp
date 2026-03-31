@@ -18,6 +18,7 @@ int main() {
   // thank you c++11 for not taking a string
   // and taking a disgusting char const*
   char const* coolestAnimal = funcVandergriff();
+  printf("9 + 10 is ", funcCogan(), " right?");
   printf("%s are the coolest animal. \n\n",  coolestAnimal);
 
   return 0;
@@ -25,9 +26,9 @@ int main() {
 
 int fightClub() {
   srand(time(0));
-
+  printf("Rule 1 of fight club is to NOT talk about fight club");
   // i think there's like 20 of us in the class
-  return rand() % 20; 
+  return rand() / 20; 
 }
 
 char const* funcVandergriff() { 
